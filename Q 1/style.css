@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #85326f;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* boxs */
+
+.box{
+    height: 25rem;
+    width: 15rem;
+    display: flex; 
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background: #85326f;
+    box-shadow:  20px 20px 60px #712b5e,
+             -20px -20px 60px #993a80;
+
+}
+
+.box2{
+    border-radius: 50px;
+    background: #6d265b;
+    box-shadow:  20px 20px 60px #5d204d,
+             -20px -20px 60px #7d2c69;
+}
+
+/* arowBtn */
+
+.btnBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 3rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border-color: transparent;
+    color: black;
+    font-size: large;
+}
+
+/* checkBox */
+
+.checkBox{
+   margin: 1.2rem;  
+    
+     
+}
+.boxCheckBox{
+   
+}
